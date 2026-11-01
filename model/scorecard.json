@@ -1,0 +1,436 @@
+{
+  "meta": {
+    "dataset": "Polish companies bankruptcy (UCI ML Repository, id 365), file 5year.arff",
+    "target": "bankrupt within 1 year (1 = bankrupt)",
+    "trained_on": "2026-10-31",
+    "n_train": 4095,
+    "train_bad_rate": 0.0698
+  },
+  "scaling": {
+    "base_score": 600,
+    "base_odds": 50,
+    "pdo": 20,
+    "factor": 28.853901,
+    "offset": 487.122876
+  },
+  "intercept": -2.3793,
+  "score_range": [
+    414,
+    638
+  ],
+  "features": [
+    {
+      "name": "Attr27",
+      "short_name": "Interest coverage",
+      "definition": "profit on operating activities / financial expenses",
+      "iv": 1.669,
+      "coef": -0.7107,
+      "median": 0.9824,
+      "edges": [
+        -4.4943599999999995,
+        -0.7574139999999997,
+        -0.06098519999999925
+      ],
+      "bins": [
+        {
+          "label": "(-inf, -4.494]",
+          "woe": -2.0509,
+          "points": 51,
+          "count": 192,
+          "bad_rate": 0.3698
+        },
+        {
+          "label": "(-4.494, -0.7574]",
+          "woe": -1.4894,
+          "points": 62,
+          "count": 192,
+          "bad_rate": 0.25
+        },
+        {
+          "label": "(-0.7574, -0.06099]",
+          "woe": 0.0889,
+          "points": 94,
+          "count": 192,
+          "bad_rate": 0.0625
+        },
+        {
+          "label": "(-0.06099, inf]",
+          "woe": 1.1341,
+          "points": 116,
+          "count": 3259,
+          "bad_rate": 0.0236
+        }
+      ],
+      "missing_bin": {
+        "label": "Missing",
+        "woe": -1.7374,
+        "points": 57,
+        "count": 260,
+        "bad_rate": 0.3
+      },
+      "max_points": 116,
+      "min_points": 51
+    },
+    {
+      "name": "Attr25",
+      "short_name": "Accumulated profits to assets",
+      "definition": "(equity - share capital) / total assets",
+      "iv": 1.017,
+      "coef": -0.4065,
+      "median": 0.422,
+      "edges": [
+        -0.32205999999999996,
+        -0.05546799999999996,
+        0.28315,
+        0.462498,
+        0.594294
+      ],
+      "bins": [
+        {
+          "label": "(-inf, -0.3221]",
+          "woe": -1.8147,
+          "points": 71,
+          "count": 205,
+          "bad_rate": 0.3171
+        },
+        {
+          "label": "(-0.3221, -0.05547]",
+          "woe": -1.2889,
+          "points": 78,
+          "count": 205,
+          "bad_rate": 0.2146
+        },
+        {
+          "label": "(-0.05547, 0.2832]",
+          "woe": -0.3488,
+          "points": 89,
+          "count": 1023,
+          "bad_rate": 0.0968
+        },
+        {
+          "label": "(0.2832, 0.4625]",
+          "woe": 0.3782,
+          "points": 97,
+          "count": 818,
+          "bad_rate": 0.0489
+        },
+        {
+          "label": "(0.4625, 0.5943]",
+          "woe": 0.8954,
+          "points": 103,
+          "count": 614,
+          "bad_rate": 0.0293
+        },
+        {
+          "label": "(0.5943, inf]",
+          "woe": 1.5497,
+          "points": 111,
+          "count": 1228,
+          "bad_rate": 0.0155
+        }
+      ],
+      "missing_bin": {
+        "label": "Missing",
+        "woe": 0.0,
+        "points": 93,
+        "count": 2,
+        "bad_rate": 0.5
+      },
+      "max_points": 111,
+      "min_points": 71
+    },
+    {
+      "name": "Attr21",
+      "short_name": "Sales growth",
+      "definition": "sales (n) / sales (n-1)",
+      "iv": 0.8328,
+      "coef": -0.5515,
+      "median": 1.1159,
+      "edges": [
+        0.841271,
+        0.957124,
+        1.0183,
+        1.06698,
+        1.11595
+      ],
+      "bins": [
+        {
+          "label": "(-inf, 0.8413]",
+          "woe": -1.2922,
+          "points": 72,
+          "count": 403,
+          "bad_rate": 0.2159
+        },
+        {
+          "label": "(0.8413, 0.9571]",
+          "woe": -0.2094,
+          "points": 89,
+          "count": 402,
+          "bad_rate": 0.0846
+        },
+        {
+          "label": "(0.9571, 1.018]",
+          "woe": 0.2553,
+          "points": 97,
+          "count": 404,
+          "bad_rate": 0.0545
+        },
+        {
+          "label": "(1.018, 1.067]",
+          "woe": 0.4511,
+          "points": 100,
+          "count": 400,
+          "bad_rate": 0.045
+        },
+        {
+          "label": "(1.067, 1.116]",
+          "woe": 0.7843,
+          "points": 105,
+          "count": 402,
+          "bad_rate": 0.0323
+        },
+        {
+          "label": "(1.116, inf]",
+          "woe": 1.2825,
+          "points": 113,
+          "count": 2011,
+          "bad_rate": 0.0204
+        }
+      ],
+      "missing_bin": {
+        "label": "Missing",
+        "woe": 0.0,
+        "points": 93,
+        "count": 73,
+        "bad_rate": 0.9726
+      },
+      "max_points": 113,
+      "min_points": 72
+    },
+    {
+      "name": "Attr43",
+      "short_name": "Receivable + inventory days",
+      "definition": "rotation receivables + inventory turnover in days",
+      "iv": 0.155,
+      "coef": -1.0055,
+      "median": 106.59,
+      "edges": [
+        36.3296,
+        50.0002,
+        67.623
+      ],
+      "bins": [
+        {
+          "label": "(-inf, 36.33]",
+          "woe": -0.9077,
+          "points": 66,
+          "count": 205,
+          "bad_rate": 0.1561
+        },
+        {
+          "label": "(36.33, 50]",
+          "woe": -0.8328,
+          "points": 68,
+          "count": 205,
+          "bad_rate": 0.1463
+        },
+        {
+          "label": "(50, 67.62]",
+          "woe": -0.2841,
+          "points": 84,
+          "count": 410,
+          "bad_rate": 0.0902
+        },
+        {
+          "label": "(67.62, inf]",
+          "woe": 0.219,
+          "points": 99,
+          "count": 3275,
+          "bad_rate": 0.0571
+        }
+      ],
+      "missing_bin": {
+        "label": "Missing",
+        "woe": 0.0,
+        "points": 93,
+        "count": 0,
+        "bad_rate": null
+      },
+      "max_points": 99,
+      "min_points": 66
+    },
+    {
+      "name": "Attr62",
+      "short_name": "Short-term liability days",
+      "definition": "(short-term liabilities * 365) / sales",
+      "iv": 0.6054,
+      "coef": -0.5152,
+      "median": 73.31,
+      "edges": [
+        60.68140000000001,
+        96.4127,
+        118.86,
+        186.956,
+        273.31000000000034
+      ],
+      "bins": [
+        {
+          "label": "(-inf, 60.68]",
+          "woe": 0.717,
+          "points": 103,
+          "count": 1638,
+          "bad_rate": 0.0354
+        },
+        {
+          "label": "(60.68, 96.41]",
+          "woe": 0.4898,
+          "points": 100,
+          "count": 1024,
+          "bad_rate": 0.0439
+        },
+        {
+          "label": "(96.41, 118.9]",
+          "woe": -0.0224,
+          "points": 92,
+          "count": 409,
+          "bad_rate": 0.0709
+        },
+        {
+          "label": "(118.9, 187]",
+          "woe": -0.2885,
+          "points": 88,
+          "count": 614,
+          "bad_rate": 0.0912
+        },
+        {
+          "label": "(187, 273.3]",
+          "woe": -1.1092,
+          "points": 76,
+          "count": 205,
+          "bad_rate": 0.1854
+        },
+        {
+          "label": "(273.3, inf]",
+          "woe": -1.7019,
+          "points": 67,
+          "count": 205,
+          "bad_rate": 0.2927
+        }
+      ],
+      "missing_bin": {
+        "label": "Missing",
+        "woe": 0.0,
+        "points": 93,
+        "count": 0,
+        "bad_rate": null
+      },
+      "max_points": 103,
+      "min_points": 67
+    },
+    {
+      "name": "Attr29",
+      "short_name": "Company size (log total assets)",
+      "definition": "logarithm of total assets",
+      "iv": 0.3793,
+      "coef": -0.1526,
+      "median": 4.1718,
+      "edges": [
+        2.7255800000000003,
+        3.3687799999999997,
+        4.0798,
+        4.2542800000000005,
+        4.4395
+      ],
+      "bins": [
+        {
+          "label": "(-inf, 2.726]",
+          "woe": -1.2306,
+          "points": 87,
+          "count": 205,
+          "bad_rate": 0.2049
+        },
+        {
+          "label": "(2.726, 3.369]",
+          "woe": -0.8045,
+          "points": 89,
+          "count": 409,
+          "bad_rate": 0.1443
+        },
+        {
+          "label": "(3.369, 4.08]",
+          "woe": -0.0568,
+          "points": 92,
+          "count": 1229,
+          "bad_rate": 0.074
+        },
+        {
+          "label": "(4.08, 4.254]",
+          "woe": 0.1754,
+          "points": 93,
+          "count": 408,
+          "bad_rate": 0.0588
+        },
+        {
+          "label": "(4.254, 4.439]",
+          "woe": 0.3666,
+          "points": 94,
+          "count": 409,
+          "bad_rate": 0.0489
+        },
+        {
+          "label": "(4.439, inf]",
+          "woe": 0.7532,
+          "points": 96,
+          "count": 1433,
+          "bad_rate": 0.0342
+        }
+      ],
+      "missing_bin": {
+        "label": "Missing",
+        "woe": 0.0,
+        "points": 93,
+        "count": 2,
+        "bad_rate": 0.5
+      },
+      "max_points": 96,
+      "min_points": 87
+    }
+  ],
+  "bands": [
+    {
+      "band": "A",
+      "label": "Very low risk",
+      "pd_from": 0.0,
+      "pd_to": 0.01,
+      "min_score": 620
+    },
+    {
+      "band": "B",
+      "label": "Low risk",
+      "pd_from": 0.01,
+      "pd_to": 0.03,
+      "min_score": 588
+    },
+    {
+      "band": "C",
+      "label": "Medium risk",
+      "pd_from": 0.03,
+      "pd_to": 0.08,
+      "min_score": 558
+    },
+    {
+      "band": "D",
+      "label": "High risk",
+      "pd_from": 0.08,
+      "pd_to": 0.2,
+      "min_score": 528
+    },
+    {
+      "band": "E",
+      "label": "Very high risk",
+      "pd_from": 0.2,
+      "pd_to": 1.0,
+      "min_score": -10000
+    }
+  ]
+}

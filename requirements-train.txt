@@ -1,0 +1,5 @@
+# Needed to retrain the model with train.py
+-r requirements.txt
+scipy>=1.11
+scikit-learn>=1.4
+lightgbm>=4.0

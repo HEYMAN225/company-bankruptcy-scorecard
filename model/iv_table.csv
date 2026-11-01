@@ -1,0 +1,65 @@
+ratio,name,definition,iv,status
+Attr27,Interest coverage,profit on operating activities / financial expenses,1.669,selected
+Attr13,(gross profit + depreciation) / sales,(gross profit + depreciation) / sales,1.3417,correlated with Attr27
+Attr39,profit on sales / sales,profit on sales / sales,1.2915,correlated with Attr27
+Attr35,profit on sales / total assets,profit on sales / total assets,1.2774,correlated with Attr27
+Attr26,Cash flow to liabilities,(net profit + depreciation) / total liabilities,1.2767,did not improve CV AUC enough
+Attr16,(gross profit + depreciation) / total liabilities,(gross profit + depreciation) / total liabilities,1.2751,correlated with Attr26
+Attr42,profit on operating activities / sales,profit on operating activities / sales,1.2102,correlated with Attr27
+Attr22,profit on operating activities / total assets,profit on operating activities / total assets,1.2023,correlated with Attr27
+Attr1,Return on assets,net profit / total assets,1.1958,correlated with Attr27
+Attr23,net profit / sales,net profit / sales,1.1876,correlated with Attr27
+Attr14,(gross profit + interest) / total assets,(gross profit + interest) / total assets,1.1649,correlated with Attr27
+Attr7,EBIT / total assets,EBIT / total assets,1.1649,correlated with Attr27
+Attr18,gross profit / total assets,gross profit / total assets,1.1649,correlated with Attr27
+Attr19,gross profit / sales,gross profit / sales,1.1626,correlated with Attr27
+Attr31,(gross profit + interest) / sales,(gross profit + interest) / sales,1.1611,correlated with Attr26
+Attr12,gross profit / short-term liabilities,gross profit / short-term liabilities,1.1504,correlated with Attr26
+Attr11,(gross profit + extraordinary items + financial expenses) / total assets,(gross profit + extraordinary items + financial expenses) / total assets,1.1334,correlated with Attr27
+Attr45,net profit / inventory,net profit / inventory,1.1,correlated with Attr26
+Attr41,total liabilities / ((profit on operating activities + depreciation) * (12/365)),total liabilities / ((profit on operating activities + depreciation) * (12/365)),1.0963,correlated with Attr27
+Attr15,(total liabilities * 365) / (gross profit + depreciation),(total liabilities * 365) / (gross profit + depreciation),1.0788,correlated with Attr27
+Attr25,Accumulated profits to assets,(equity - share capital) / total assets,1.017,selected
+Attr46,Quick ratio,(current assets - inventory) / short-term liabilities,0.9745,did not improve CV AUC enough
+Attr55,working capital,working capital,0.8838,did not improve CV AUC enough
+Attr21,Sales growth,sales (n) / sales (n-1),0.8328,selected
+Attr56,(sales - cost of products sold) / sales,(sales - cost of products sold) / sales,0.7976,correlated with Attr26
+Attr3,Working capital to assets,working capital / total assets,0.766,correlated with Attr46
+Attr4,Current ratio,current assets / short-term liabilities,0.7463,correlated with Attr46
+Attr38,constant capital / total assets,constant capital / total assets,0.7455,correlated with Attr25
+Attr28,working capital / fixed assets,working capital / fixed assets,0.7435,correlated with Attr46
+Attr24,gross profit (in 3 years) / total assets,gross profit (in 3 years) / total assets,0.7433,correlated with Attr26
+Attr6,Retained earnings to assets,retained earnings / total assets,0.7415,did not improve CV AUC enough
+Attr54,constant capital / fixed assets,constant capital / fixed assets,0.7401,correlated with Attr46
+Attr58,total costs / total sales,total costs / total sales,0.7362,correlated with Attr26
+Attr17,total assets / total liabilities,total assets / total liabilities,0.7194,correlated with Attr25
+Attr48,EBITDA (profit on operating activities - depreciation) / total assets,EBITDA (profit on operating activities - depreciation) / total assets,0.7153,correlated with Attr27
+Attr51,short-term liabilities / total assets,short-term liabilities / total assets,0.7073,correlated with Attr25
+Attr8,book value of equity / total liabilities,book value of equity / total liabilities,0.6988,correlated with Attr25
+Attr53,equity / fixed assets,equity / fixed assets,0.6955,correlated with Attr25
+Attr2,Debt ratio,total liabilities / total assets,0.6887,correlated with Attr25
+Attr10,Equity ratio,equity / total assets,0.6857,correlated with Attr25
+Attr49,EBITDA (profit on operating activities - depreciation) / sales,EBITDA (profit on operating activities - depreciation) / sales,0.656,did not improve CV AUC enough
+Attr62,Short-term liability days,(short-term liabilities * 365) / sales,0.6054,selected
+Attr63,sales / short-term liabilities,sales / short-term liabilities,0.5915,correlated with Attr62
+Attr50,current assets / total liabilities,current assets / total liabilities,0.5886,correlated with Attr46
+Attr5,[(cash + short-term securities + receivables - short-term liabilities) / (operating expenses - depreciation)] * 365,[(cash + short-term securities + receivables - short-term liabilities) / (operating expenses - depreciation)] * 365,0.5594,correlated with Attr46
+Attr40,(current assets - inventory - receivables) / short-term liabilities,(current assets - inventory - receivables) / short-term liabilities,0.5219,did not improve CV AUC enough
+Attr57,(current assets - inventory - short-term liabilities) / (sales - gross profit - depreciation),(current assets - inventory - short-term liabilities) / (sales - gross profit - depreciation),0.5147,correlated with Attr26
+Attr30,(total liabilities - cash) / sales,(total liabilities - cash) / sales,0.4466,correlated with Attr62
+Attr32,(current liabilities * 365) / cost of products sold,(current liabilities * 365) / cost of products sold,0.414,correlated with Attr62
+Attr29,Company size (log total assets),logarithm of total assets,0.3793,selected
+Attr52,(short-term liabilities * 365) / cost of products sold,(short-term liabilities * 365) / cost of products sold,0.3274,correlated with Attr62
+Attr33,operating expenses / short-term liabilities,operating expenses / short-term liabilities,0.2993,correlated with Attr62
+Attr44,Receivable days,(receivables * 365) / sales,0.1618,did not improve CV AUC enough
+Attr43,Receivable + inventory days,rotation receivables + inventory turnover in days,0.155,selected
+Attr61,sales / receivables,sales / receivables,0.1484,correlated with Attr44
+Attr9,Asset turnover,sales / total assets,0.1252,did not improve CV AUC enough
+Attr47,(inventory * 365) / cost of products sold,(inventory * 365) / cost of products sold,0.1097,did not improve CV AUC enough
+Attr36,total sales / total assets,total sales / total assets,0.105,did not improve CV AUC enough
+Attr59,long-term liabilities / equity,long-term liabilities / equity,0.0903,IV below 0.1
+Attr20,(inventory * 365) / sales,(inventory * 365) / sales,0.0757,IV below 0.1
+Attr37,(current assets - inventories) / long-term liabilities,(current assets - inventories) / long-term liabilities,0.0644,IV below 0.1
+Attr34,operating expenses / total liabilities,operating expenses / total liabilities,0.0496,IV below 0.1
+Attr60,sales / inventory,sales / inventory,0.0437,IV below 0.1
+Attr64,sales / fixed assets,sales / fixed assets,0.008,IV below 0.1

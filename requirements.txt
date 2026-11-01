@@ -1,0 +1,4 @@
+# Needed to run the Streamlit app (this is what Streamlit Community Cloud installs)
+streamlit==1.66.1
+pandas>=2.2
+numpy>=1.26
